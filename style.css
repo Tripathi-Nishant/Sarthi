@@ -1,0 +1,176 @@
+
+    /* Global Styles */
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    /* Header Styles */
+    header {
+      background-color: #007bff;
+      padding: 1rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      margin: 0 1rem;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #e6e6e6;
+    }
+
+    /* Main Content Styles */
+    main {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      margin-bottom: 4rem;
+    }
+
+    h1, h2 {
+      color: #ff9d00;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background-color: #f8f9fa;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.5rem;
+      color: #6c757d;
+    }
+
+    .notes, .practice, .books, .skills, .news {
+      background-color: #fff;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .notes ul, .books ul, .skills ul, .news ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .notes li a, .books li a, .skills li a, .news li a {
+      color: #2600ff;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .notes li a:hover, .books li a:hover, .skills li a:hover, .news li a:hover {
+      color: #0056b3;
+    }
+
+    .practice a {
+      display: inline-block;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+
+    .practice a:hover {
+      background-color: #0056b3;
+    }
+
+    /* Footer Styles */
+    footer {
+      background-color: #007bff;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.875rem;
+    }
+
+
+
+
+
+
+    
+    .hero-img {
+      width: 100%;
+      height: 450px;
+    }
+    .thumbnail {
+      width: 80px;
+      height: 80px;
+      border-radius: 8px;
+      margin-right: 10px;
+     
+    }
+    .practice-img {
+      width: 500%;
+      max-width: 200px;
+      margin: 50px 0;
+      float: right;
+      padding: 0px ;
+      margin-top: 0px;
+      margin-bottom: 100px
+    }
+    .icon {
+      width: 50px;
+      height: 50px;
+      margin-right: 10px;
+    }
+    .notes-img{
+      width: 500%;
+      max-width:200px ;
+      margin : 50px,0;
+      float: right;
+      padding: 0px;
+      margin-top: 0px;
+      margin-bottom: 100px; 
+
+    }
+    .qizeimage{
+      max-width: max-content;
+      margin-bottom: 50%;
+      margin-left: 0%;
+      margin-top: 0%;
+      float: inline-end;
+      padding: 0%;
+    }
+    .notesimg{
+      max-width: fit-content;
+      margin-bottom: 0%;
+      margin-left: 0%;
+      margin-top: 0%;
+      float: right;
+      padding: 0%;
+    }
+    
+ 

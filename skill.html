@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B.Tech Student Skills Guide</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2ecc71;
+            --background-light: #f0f4f8;
+            --text-dark: #2c3e50;
+            --card-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--background-light);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            border-radius: 0 0 20px 20px;
+            box-shadow: var(--card-shadow);
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin: 0 auto;
+            opacity: 0.9;
+        }
+
+        .skill-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 30px 0;
+        }
+
+        .skill-card {
+            background-color: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: var(--card-shadow);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+        }
+
+        .skill-card h2 {
+            color: var(--primary-color);
+            border-bottom: 3px solid var(--secondary-color);
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        .skill-card h2 i {
+            margin-right: 15px;
+            font-size: 1.5rem;
+        }
+
+        .skill-card ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skill-card ul li {
+            padding: 10px 0;
+            border-bottom: 1px solid #f1f1f1;
+            display: flex;
+            align-items: center;
+        }
+
+        .skill-card ul li:last-child {
+            border-bottom: none;
+        }
+
+        .skill-card ul li i {
+            color: var(--secondary-color);
+            margin-right: 15px;
+            font-size: 1.2rem;
+        }
+
+        .pro-tip {
+            background: linear-gradient(145deg, #f6d365 0%, #fda085 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 15px;
+            margin-top: 30px;
+            text-align: center;
+            box-shadow: var(--card-shadow);
+        }
+
+        @media (max-width: 768px) {
+            .skill-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Essential Skills for First-Year B.Tech Students</h1>
+            <p>Your comprehensive guide to developing technical, professional, and personal skills that will set the foundation for a successful engineering career.</p>
+        </header>
+
+        <div class="skill-grid">
+            <div class="skill-card">
+                <h2><i class="fas fa-laptop-code"></i>Technical Skills</h2>
+                <ul>
+                    <li><i class="fas fa-code"></i>Programming Fundamentals (Python, C++, Java)</li>
+                    <li><i class="fas fa-calculator"></i>Advanced Mathematics and Computational Skills</li>
+                    <li><i class="fas fa-desktop"></i>Engineering Software Proficiency</li>
+                    <li><i class="fas fa-tools"></i>Basic Hardware and Troubleshooting</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <h2><i class="fas fa-comments"></i>Soft Skills</h2>
+                <ul>
+                    <li><i class="fas fa-microphone"></i>Effective Communication</li>
+                    <li><i class="fas fa-users"></i>Teamwork and Collaboration</li>
+                    <li><i class="fas fa-clock"></i>Time Management</li>
+                    <li><i class="fas fa-brain"></i>Emotional Intelligence</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <h2><i class="fas fa-book-reader"></i>Research Skills</h2>
+                <ul>
+                    <li><i class="fas fa-search"></i>Advanced Research Methodology</li>
+                    <li><i class="fas fa-pencil-alt"></i>Effective Note-Taking Techniques</li>
+                    <li><i class="fas fa-graduation-cap"></i>Self-Learning Strategies</li>
+                    <li><i class="fas fa-database"></i>Data Analysis Basics</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <h2><i class="fas fa-briefcase"></i>Professional Development</h2>
+                <ul>
+                    <li><i class="fas fa-file-alt"></i>Resume Building</li>
+                    <li><i class="fas fa-network-wired"></i>Professional Networking</li>
+                    <li><i class="fas fa-certificate"></i>Certification Preparation</li>
+                    <li><i class="fas fa-laptop-medical"></i>Internship Readiness</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="pro-tip">
+            <h3>Pro Tip: Your Journey Begins Now!</h3>
+            <p>Remember, skill development is a continuous journey. Stay curious, embrace challenges, and never stop learning. Your first year is just the beginning of an exciting engineering adventure!</p>
+        </div>
+    </div>
+</body>
+</html>
