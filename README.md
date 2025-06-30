@@ -2,19 +2,18 @@ Sarthi is an educational platform designed to assist students in structured and 
 
 Sarthi simplifies learning by categorizing content subject-wise (e.g., Operating Systems, DBMS, Computer Networks, etc.) and provides intelligent features such as:
 
-📝 Topic-wise PDF Notes
+ Topic-wise PDF Notes
 
-🎥 Curated Educational Videos (YouTube embedded)
+ Curated Educational Videos (YouTube embedded)
 
-📊 GATE PYQ Practice Sets
+ GATE PYQ Practice Sets
+ Smart Search for quick navigation
 
-🔍 Smart Search for quick navigation
-
-🔔 Daily Reminders & Progress Tracker (optional feature)
+Daily Reminders & Progress Tracker (optional feature)
 
 It’s built with scalability in mind — from B.Tech students to GATE aspirants — and serves as a personal academic guide for structured, distraction-free learning.
 
-💡 Key Features:
+ Key Features:
 Centralized repository of notes and videos
 
 Clean and responsive UI
@@ -25,7 +24,7 @@ Future-ready for AI integration (e.g., auto-summary, quiz generator)
 
 Works on both desktop and mobile browsers
 
-🧰 Tech Stack:
+ Tech Stack:
 Frontend: HTML, CSS, JavaScript (or React.js)
 
 Backend (optional): Node.js / Firebase
